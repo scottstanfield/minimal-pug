@@ -1,5 +1,5 @@
 index.html: index.pug node_modules
-	pug index.pug
+	node_modules/.bin/pug --pretty index.pug
 
 node_modules: package.json
 	npm install
